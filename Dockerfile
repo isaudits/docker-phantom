@@ -1,4 +1,4 @@
-FROM isaudits/msf:minimal
+FROM isaudits/msf:latest
 
 ARG TOOLS_BASE="python3-openssl mingw-w64 binutils-common osslsigncode apktool apksigner zipalign"
 
